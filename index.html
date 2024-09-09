@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Cumpleaños</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sistema Cumpleaños</h1>
+    <form id="excelForm">
+      <div class="form-group">
+        <label for="nombre">Nombre y apellido:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="cumpleanero">Nombre y apellido del cumpleañero:</label>
+        <input type="text" id="cumpleanero" name="cumpleanero" required>
+      </div>
+      <div class="form-group">
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+      </div>
+      <div class="form-group">
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+      </div>
+      <div class="form-group">
+        <label for="saltadores">Cantidad de saltadores:</label>
+        <input type="number" id="saltadores" name="saltadores" required>
+      </div>
+      <div class="form-group">
+        <label for="kids">Cantidad de kids:</label>
+        <input type="number" id="kids" name="kids" value="0">
+      </div>
+      <div class="form-group">
+        <label for="noSaltadores">Cantidad de no saltadores:</label>
+        <input type="number" id="noSaltadores" name="noSaltadores" required>
+      </div>
+      <div class="form-group">
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+      </div>
+      <div class="form-group">
+        <label for="hora">Hora (entre 13:00 y 18:00):</label>
+        <input type="time" id="hora" name="hora" min="13:00" max="18:00" required>
+      </div>
+      <div class="form-group">
+        <label for="monto">Monto a pagar:</label>
+        <input type="number" id="monto" name="monto">
+      </div>
+      <div class="button-group">
+        <button type="button" id="generateBudget">Armar Presupuesto</button>
+        <button type="submit" id="generateExcel">Generar Excel</button>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

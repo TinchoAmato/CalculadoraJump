@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0faff; /* Celeste claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9); /* Blanco con transparencia */
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%; /* Ancho del contenedor */
+    max-width: 600px; /* Tamaño máximo del contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #003366; /* Azul oscuro */
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaciado entre elementos */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los inputs */
+  }
+  
+  label {
+    font-size: 14px; /* Tamaño de fuente más pequeño para las etiquetas */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="time"] {
+    width: 100%; /* Ancho completo del contenedor de la fila */
+    max-width: 300px; /* Ancho máximo del input */
+    padding: 8px; /* Padding reducido */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center; /* Centrar el texto dentro del input */
+    box-sizing: border-box; /* Incluye el padding y border en el width total */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre botones */
+    gap: 10px; /* Espacio entre botones */
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #003366; /* Azul oscuro */
+    cursor: pointer;
+    font-size: 16px;
+    width: 48%; /* Ancho del botón */
+  }
+  
+  button:hover {
+    background-color: #002244; /* Azul más oscuro */
+  }
+  
